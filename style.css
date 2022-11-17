@@ -1,0 +1,40 @@
+*{
+  margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family:arial;
+ }
+ 
+ img{
+   max-width:100%;
+   height:600px;
+   border-radius:20px 20px  0 0;
+ }
+ .mobile{
+   width:400px;
+   max-width:400px;
+   margin:20px auto;
+   background:#fff;
+   border-radius:20px;
+   border:4px solid #ddd;
+ }
+ 
+ .items{
+ /*   padding-bottom:20%; */
+   display:flex;
+   justify-content:space-around;
+   align-items:flex-end;
+   padding:15px;
+ }
+ 
+ .item{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+ }
+ 
+ i{
+   margin:5px;
+ }
+ 
+ 
